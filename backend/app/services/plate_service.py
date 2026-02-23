@@ -4,7 +4,8 @@ import urllib.parse
 from typing import List
 
 from app.core.repository import CountryRepository
-from app.schemas.plate import PlateCalculationResult, TripSegment
+from app.schemas.plate import PlateCalculationResult
+from app.schemas.trip import TripSegment
 from app.services.calculator import PlateCalculator
 
 logger = logging.getLogger(__name__)

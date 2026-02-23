@@ -2,8 +2,8 @@ import logging
 import random
 from typing import Dict, List, Optional, Set
 
+from app.schemas.country import CountrySchema
 from app.schemas.plate import (
-    CountrySchema,
     PlateCalculationResult,
     PlateExampleSymbol,
     PlateVisualSymbol,

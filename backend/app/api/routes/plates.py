@@ -1,12 +1,9 @@
 from typing import List
 
 from app.api.deps import get_plate_service
-from app.schemas.plate import (
-    CountrySchema,
-    SearchRequest,
-    SearchResponse,
-    TripRouteResponse,
-)
+from app.schemas.country import CountrySchema
+from app.schemas.search import SearchRequest, SearchResponse
+from app.schemas.trip import TripRouteResponse
 from app.services.plate_service import PlateService
 from fastapi import APIRouter, Depends
 

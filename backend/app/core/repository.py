@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from app.schemas.plate import CountrySchema
+from app.schemas.country import CountrySchema
 
 logger = logging.getLogger(__name__)
 
