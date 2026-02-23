@@ -1,6 +1,6 @@
 from typing import Optional
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
 class CountrySchema(BaseModel):
@@ -32,5 +32,4 @@ class CountrySchema(BaseModel):
     def normalize_country_code(cls, v: str) -> str:
         return v.upper()
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
