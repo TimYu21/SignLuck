@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap');
+
+:root {
+  /* Industrial Dark Palette */
+  --bg-main: #09090b;
+  /* Zinc 950 */
+  --bg-surface: #18181b;
+  /* Zinc 900 */
+  --bg-card: #121214;
+
+  /* Accents */
+  --color-primary: #f59e0b;
+  /* Amber 500 */
+  --color-primary-dim: rgba(245, 158, 11, 0.1);
+  --color-error: #ef4444;
+
+  /* Text */
+  --text-main: #e4e4e7;
+  /* Zinc 200 */
+  --text-dim: #71717a;
+  /* Zinc 500 */
+
+  /* UI */
+  --border-subtle: #27272a;
+  /* Zinc 800 */
+  --border-active: #f59e0b;
+  --glass-blur: blur(8px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}
