@@ -5,6 +5,15 @@
 Формат базируется на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 и этот проект придерживается [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2024-02-23
+
+### Добавлено
+
+#### Server
+- **Configuration**: Реализована настройка CORS через переменную окружения `BACKEND_CORS_ORIGINS` для удобного деплоя.
+- **Docker**: Обновлен `docker-compose.yml` с примером конфигурации разрешенных доменов.
+
+
 ## [1.1.0] - 2024-02-23
 
 ### Изменено
